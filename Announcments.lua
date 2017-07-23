@@ -11,7 +11,7 @@
 -- awards you just need to edit these strings. 
 -- Do display a new line in your message use \n. 
 
-WebDKP_ItemAward =			"DKP: $player bekommt $item f\195\188r: $cost dkp.";
+WebDKP_ItemAward =			"DKP: $player bekommt $item f\195\188r: $cost DKP.";
 
 WebDKP_ItemAwardZeroSum =	"DKP: $dkp DKP vergeben an alle Spieler f\195\188r ZeroSum: $item";
 
@@ -21,12 +21,12 @@ WebDKP_DkpAwardSome =		"DKP: $dkp DKP an ausgew\195\164hlte Spieler f\195\188r: 
 
 WebDKP_BidStart =			"DKP: $item Gebote mit !bid (z.B. !bid 20)";
 
-WebDKP_BidEnd =				"DKP: Auktion f\195\188r $item beendet. Der Gewinner ist $name f\195\188r $dkp dkp";
+WebDKP_BidEnd =				"DKP: Auktion f\195\188r $item beendet. Der Gewinner ist $name f\195\188r $dkp DKP";
 WebDKP_BidEndSilent = 		"DKP: Auktion f\195\188r $item beendet.";
 WebDKP_RollEnd =			"DKP: W\195\188rfeln f\195\188r $item beendet. Der Gewinner ist $name mit $roll";
 
-WebDKP_TimedAward =			"DKP: $minutes Minute Timed Award of $dkp DKP Given";
-WebDKP_BossAwardNum =		"DKP: Great Job! A Boss Award of $dkp Has Been Given";
+WebDKP_TimedAward =			"DKP: $minutes Minute Timed Award of $dkp DKP";
+WebDKP_BossAwardNum =		"DKP: Nic\195\188\195\188\195\188! Du hast den Boss genuked! $dkp f\195\188r dich!";
 
 -- ================================
 -- Returns the location where notifications should be sent to. 
