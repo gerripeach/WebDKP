@@ -11,24 +11,22 @@
 -- awards you just need to edit these strings. 
 -- Do display a new line in your message use \n. 
 
-WebDKP_ItemAward =			"WebDKP: $player awarded $item for: $cost dkp.";
+WebDKP_ItemAward =			"DKP: $player bekommt $item f\195\188r: $cost dkp.";
 
-WebDKP_ItemAwardZeroSum =	"WebDKP: $dkp dkp awarded to all players for ZeroSum: $item";
+WebDKP_ItemAwardZeroSum =	"DKP: $dkp DKP vergeben an alle Spieler f\195\188r ZeroSum: $item";
 
-WebDKP_DkpAwardAll =		"WebDKP: $dkp dkp given to all players for: $reason.";
+WebDKP_DkpAwardAll =		"DKP: $dkp DKP f\195\188r alle Spieler: $reason.";
 
-WebDKP_DkpAwardSome =		"WebDKP: $dkp dkp given to selected players for: $reason. \nReceiving players have all been whispered.";
+WebDKP_DkpAwardSome =		"DKP: $dkp DKP an ausgew\195\164hlte Spieler f\195\188r: $reason. \nAusgew\195\164hlte wurden angefl\195\188stert.";
 
-WebDKP_BidStart =			"WebDKP: Bidding has started on $item! $time " ..
-							"$startingBid"..
-							"$instructions";
+WebDKP_BidStart =			"DKP: $item Gebote mit !bid (z.B. !bid 20)";
 
-WebDKP_BidEnd =				"WebDKP: Bidding has ended for $item The winner was $name who bid $dkp dkp";
-WebDKP_BidEndSilent = 			"WebDKP: Bidding has ended for $item";
-WebDKP_RollEnd =			"WebDKP: Rolling has ended for $item. $name was the high roller with a $roll";
+WebDKP_BidEnd =				"DKP: Auktion f\195\188r $item beendet. Der Gewinner ist $name f\195\188r $dkp dkp";
+WebDKP_BidEndSilent = 		"DKP: Auktion f\195\188r $item beendet.";
+WebDKP_RollEnd =			"DKP: W\195\188rfeln f\195\188r $item beendet. Der Gewinner ist $name mit $roll";
 
-WebDKP_TimedAward =			"WebDKP: $minutes Minute Timed Award of $dkp dkp Given";
-WebDKP_BossAwardNum =			"WebDKP: Great Job! A Boss Award of $dkp Has Been Given";
+WebDKP_TimedAward =			"DKP: $minutes Minute Timed Award of $dkp DKP Given";
+WebDKP_BossAwardNum =		"DKP: Great Job! A Boss Award of $dkp Has Been Given";
 
 -- ================================
 -- Returns the location where notifications should be sent to. 
